@@ -22,7 +22,7 @@ try {
     $score = $check->name('Peter Foo', 'Paul Foo'); 
 
     echo "Percentage: {$score->getRate()}%\n";
-    echo "Ratio: $distance->getRatio() \n";
+    echo "Ratio: {$distance->getRatio()}\n";
 } catch (InvalidArgumentException $e){
     echo $e->getMessage();
 }
