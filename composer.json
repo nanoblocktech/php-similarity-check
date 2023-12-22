@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": { 
-            "Luminova\\ExtraUtils\\": "src/" 
+            "Luminova\\ExtraUtils\\SimilarityChecker\\": "src/" 
         }
   },
   "config": {
