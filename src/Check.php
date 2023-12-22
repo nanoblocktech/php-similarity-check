@@ -16,6 +16,13 @@ use \InvalidArgumentException;
 class Check
 {
     /**
+     * Initialize Check contractor 
+    */
+    public function __construct(){
+
+    }
+
+    /**
      * Calculate the similarity between two names
      * 
      * @param string $nameX Person name 1
