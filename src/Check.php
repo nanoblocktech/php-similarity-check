@@ -34,7 +34,7 @@ class Check
             throw new InvalidArgumentException('Invalid parameter $nameY is not a valid person name.');
         }
 
-        $ratio = $this->compare($nameX, $nameY);
+        $ratio = self::compare($nameX, $nameY);
 
         return new Score('name', $ratio);
     }
@@ -48,7 +48,7 @@ class Check
      * 
      * @return float Similarity ratio between
     */
-    public function compare(string $itemX, string $itemY): float 
+    public static function compare(string $itemX, string $itemY): float 
     {
         $itemX = strtolower($itemX);
         $itemY = strtolower($itemY);
