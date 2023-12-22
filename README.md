@@ -36,8 +36,8 @@ try {
 Check similarity score between two string 
 
 ```php
-    $score = Check::compare('Foo', 'Faa'); 
+$score = Check::compare('Foo', 'Faa'); 
 
-    echo "Percentage: {$score->getRate()}%\n";
-    echo "Ratio: {$distance->getRatio()}\n";
+echo "Percentage: {$score->getRate()}%\n";
+echo "Ratio: {$distance->getRatio()}\n";
 ```
