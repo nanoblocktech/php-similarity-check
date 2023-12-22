@@ -1,0 +1,35 @@
+{
+    "name": "nanoblocktech/php-similarity-check",
+    "type": "library",
+    "description": "PHP class to check the similarity between two items",
+    "license": "MIT",
+    "keywords": ["PHP", "Luminova", "similarity calculation", "similarity checker", "name similarity"],
+    "authors": [
+        {
+            "name": "Ujah Chigozie",
+            "email": "ujahchigozie@gmail.com"
+        },
+       {
+            "name": "Nanoblock Technology",
+            "email": "code@nanoblocktech.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nanoblocktech/shipping-calculator/issues",
+        "source": "https://github.com/nanoblocktech/shipping-calculator"
+    },
+    
+    "require": {
+       "php": "^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Luminova\\ExtraUtils\\": "src/" 
+        }
+  },
+  "config": {
+        "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
