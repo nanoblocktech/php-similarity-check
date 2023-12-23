@@ -41,3 +41,12 @@ $score = Check::compare('Foo', 'Faa');
 echo "Percentage: {$score->getRate()}%\n";
 echo "Ratio: {$distance->getRatio()}\n";
 ```
+
+Authenticate user name against the saved name in database
+```php
+if($score->getRate() >= 50){
+ echo "Allow execution";
+}else{
+  echo "Sorry your name does not match with your account profile name";
+}
+```
